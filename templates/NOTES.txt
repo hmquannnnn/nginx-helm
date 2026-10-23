@@ -1,4 +1,4 @@
 Release {{ .Release.Name }} has been installed in namespace {{ .Release.Namespace }}.
 
 Visit:
-  oc get route {{ include "nginx-helm.fullname" . }} -n {{ .Release.Namespace }} -o jsonpath='{.spec.host}'
+  echo "https://$(oc get route {{ include "nginx-helm.fullname" . }} -n {{ .Release.Namespace }} -o jsonpath='{.spec.host}')"

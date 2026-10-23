@@ -3,12 +3,12 @@ entries:
   nginx-helm:
   - apiVersion: v2
     appVersion: "1.27"
-    created: "2026-10-23T09:18:24.594395502+07:00"
+    created: "2026-10-23T09:43:32.160337172+07:00"
     description: Custom-built Nginx Helm chart
-    digest: 24489af1c02b6290c6647c0d7f1da87a182e82522f00f36d9765a41e229a0b46
+    digest: 83df9692b80d51b31c0af74319ce4a68af26c4827dd25d462d555ecab429bb65
     name: nginx-helm
     type: application
     urls:
     - https://hmquannnnn.github.io/nginx-helm/nginx-helm-0.1.0.tgz
     version: 0.1.0
-generated: "2026-10-23T09:18:24.593772788+07:00"
+generated: "2026-10-23T09:43:32.159184668+07:00"
