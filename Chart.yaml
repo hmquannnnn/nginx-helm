@@ -1,6 +1,6 @@
 apiVersion: v2
 name: nginx-helm
-description: Helm chart nginx tu viet, chay duoc tren OpenShift (restricted SCC)
+description: Custom-built Nginx Helm chart
 type: application
 version: 0.1.0
 appVersion: "1.27"

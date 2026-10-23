@@ -3,12 +3,12 @@ entries:
   nginx-helm:
   - apiVersion: v2
     appVersion: "1.27"
-    created: "2026-10-23T07:25:37.045016651+07:00"
-    description: Helm chart nginx tu viet, chay duoc tren OpenShift (restricted SCC)
-    digest: 47f4f3f756e27154f8a3d462ea732a5c9af81304f96c593754f3474e69fd5b4c
+    created: "2026-10-23T09:18:24.594395502+07:00"
+    description: Custom-built Nginx Helm chart
+    digest: 24489af1c02b6290c6647c0d7f1da87a182e82522f00f36d9765a41e229a0b46
     name: nginx-helm
     type: application
     urls:
     - https://hmquannnnn.github.io/nginx-helm/nginx-helm-0.1.0.tgz
     version: 0.1.0
-generated: "2026-10-23T07:25:37.044622864+07:00"
+generated: "2026-10-23T09:18:24.593772788+07:00"
