@@ -5,6 +5,7 @@ metadata:
   labels:
     {{- include "nginx-helm.labels" . | nindent 4 }}
 spec:
+  host: ngnix.apps.fis-cp4d-dev.fis.com.vn
   path: {{ .Values.route.path }}
   to:
     kind: Service
